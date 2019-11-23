@@ -1,3 +1,9 @@
+/*
+This javascript file uses express application web framework to service
+web requests. It also uses socket.io for real time synchronized 
+communication
+*/
+
 
 var express = require('express');
 var socket = require('socket.io');
