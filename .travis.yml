@@ -5,7 +5,7 @@ cache:
   directories:
   - node_modules
 script:
-  - npm run deploy
+  - node index.js
 deploy:
   provider: pages
   skip_cleanup: true
