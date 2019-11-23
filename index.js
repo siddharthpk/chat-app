@@ -24,11 +24,10 @@ const io = socket(server);
 io.on('connection', (socket) => {
 
     console.log('made socket connection', socket.id);
-    //socket.on('disconnect',() => console.log('Client disconnected'));
-
+    
     // Handle chat event
     socket.on('chat', function(data){
-        // console.log(data);
+        
         io.sockets.emit('chat', data);
     });
 
