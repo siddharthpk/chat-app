@@ -1,1 +1,14 @@
 language: node_js
+node_js:
+  - "stable"
+cache:
+  directories:
+  - node_modules
+script:
+  - npx nodemon
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: 9dae515d4df86ffef6a69bd02b9b328a829e16f5
+  on:
+    branch: master
