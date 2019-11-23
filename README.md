@@ -10,8 +10,6 @@ Chat App is a webserver apllication which is based on a tutorial from "The Net N
 * Link to Github repo used 
     https://github.com/iamshaunjp/websockets-playlist
 
-    * Location of style.css
-        https://github.com/iamshaunjp/websockets-playlist/tree/lesson-5/public
 
 
 
