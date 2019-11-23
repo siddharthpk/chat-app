@@ -4,7 +4,7 @@ UVEC 2019
 
 Summary:
 
-Chat App is a webserver apllication which is based on a tutorial from "The Net Ninja" Youtube channel.
+Chat App is a webserver application which is based on a tutorial from "The Net Ninja" Youtube channel.
 
 
 * Link to Github repo used 
